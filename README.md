@@ -3,6 +3,8 @@
 Using this engine, you are able to very easily manage many controllers in a large game in an
 initiation script or room start event in the beginning of game loading.
 
+When a controller is added to a room, the controller with have an instance of it created at room start.
+
 This system is comprised of 3 scripts: 
 
 __mcs_add_controllers( room(s), controller(s) )__
