@@ -1,4 +1,4 @@
-#Master Control for Game Maker Studio 2
+# Master Control for Game Maker Studio 2
 
 Using this engine, you are able to very easily manage many controllers in a large game in an
 initiation script or room start event in the beginning of game loading.
@@ -11,7 +11,9 @@ using this script you can add controllers to rooms by first specifying the room 
 that goes into it. 
 
 You can also pass arrays of rooms/controllers into this script, for instance:
+
 `mcs_add_controllers([rm_start,rm_lvl1,rm_lvl2], [con_ingame,con_init]);`
+
 This script, for instance, will add both of hte controllers specified into all three rooms specified.
 
 __mcs_auto_add(slug)__
@@ -30,7 +32,8 @@ Rooms
 - rm_jungle_end
 - rm_jungle_secret
 
-With the functioned used in the following way: 
+With the functioned used in the following way:
+ 
 `mcs_auto_add("jungle");`
 
 All of the controllers with "jungle" in the name will automatically be added to the rooms with "jungle"
