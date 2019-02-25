@@ -32,7 +32,7 @@ Rooms
 - rm_jungle_end
 - rm_jungle_secret
 
-With the functioned used in the following way:
+With the script used in the following way:
  
 `mcs_auto_add("jungle");`
 
