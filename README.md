@@ -14,7 +14,7 @@ You can also pass arrays of rooms/controllers into this script, for instance:
 
 `mcs_add_controllers([rm_start,rm_lvl1,rm_lvl2], [con_ingame,con_init]);`
 
-This script, for instance, will add both of hte controllers specified into all three rooms specified.
+This example will add both of the controllers specified into all three rooms specified.
 
 __mcs_auto_add(slug)__
 This is a pretty neat script, you specify a "slug" or a string that is a word or phrase that is shared
