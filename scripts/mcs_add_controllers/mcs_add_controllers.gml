@@ -1,4 +1,4 @@
-///mcs_add_conrollers( Rooms, Controllers );
+///mcs_add_controllers( Rooms, Controllers );
 ///@param Rooms - The room(s), single or array, that are getting controllers added to
 ///@param Controllers - The Controllers to add to the room(s), single or array
 #region //Details and Use
@@ -31,7 +31,7 @@ if argument_count > 1{
 		//First, we check the rooms and see if they are indexed
 		if( is_array( rm ) ){//We have an array of rooms
 			
-			//Loop through the entries, find our rooms, add if neccessary
+			//Loop through the entries, find our rooms, add if necessary
 			for( j=0; j < array_length_1d(rm); j++ ){
 				for( i = 0; i <= array_height_2d(global.game_nor_con); i++ ){			
 					if( i == array_height_2d(global.game_nor_con) || global.game_nor_con[i,0] == -1 ){//Add it 
@@ -48,7 +48,7 @@ if argument_count > 1{
 				//Now that we've handled our rooms, let's insert objects
 				if( is_array(obj) ){//Array of rooms, Array of objects
 					for( l=0; l < array_length_1d(obj); l++ ){
-						for(k=0; k < array_length_1d(rm); k++ ){//We are going to loop through and perform this on all of htese
+						for(k=0; k < array_length_1d(rm); k++ ){//We are going to loop through and perform this on all of these
 							for( i = 0; i < array_height_2d(global.game_nor_con); i++ ){			
 								if( global.game_nor_con[i,0] == rm[k] ){//We've found our room
 									for(j=1; j <= array_length_2d(global.game_nor_con, i); j++){//Loop through our controllers, add if not there
@@ -65,7 +65,7 @@ if argument_count > 1{
 						}
 					}
 				}else{//Array of rooms, only one object
-					for(k=0; k < array_length_1d(rm); k++ ){//We are going to loop through and perform this on all of htese
+					for(k=0; k < array_length_1d(rm); k++ ){//We are going to loop through and perform this on all of these
 						for( i = 0; i < array_height_2d(global.game_nor_con); i++ ){			
 							if( global.game_nor_con[i,0] == rm[k] ){//We've found our room
 								for(j=1; j <= array_length_2d(global.game_nor_con, i); j++){//Loop through our controllers, add if not there

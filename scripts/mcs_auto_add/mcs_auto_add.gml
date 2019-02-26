@@ -6,11 +6,11 @@
 	add all objects that contain the word "Jungle" to all rooms that have
 	the word "Jungle" in the name. 
 	
-	Higly recomend using some sort of convention that indicates you wish to
+	Highly recommend using some sort of convention that indicates you wish to
 	include a controller.
 	
 	For instance, instead of just "jungle" do "a_jungle", then name your objects
-	con_a_jungle_* and rm_a_jungle_* so you don't accidently include anything you
+	con_a_jungle_* and rm_a_jungle_* so you don't accidentally include anything you
 	don't wish to include. 
 */
 #region//Check if the system has been initiated, if not then initiate it.
