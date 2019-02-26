@@ -1,7 +1,8 @@
 # Master Control for Game Maker Studio 2
 
 Using this engine, you are able to very easily manage many controllers in a large game in an
-initiation script or room start event in the beginning of game loading.
+initiation script or room start event in the beginning of game loading. This removes the need 
+of going into each room and managing a bunch of "invisible objects".
 
 When a controller is added to a room, the controller with have an instance of it created at room start.
 
