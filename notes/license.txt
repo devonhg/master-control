@@ -1,0 +1,9 @@
+I ask is that if you publish your game, include myself (Devon Godfrey) in the credits.
+
+This software can be repackaged and resold as part of a completed game, it however can NOT be packaged
+and resold as another extension for Game Maker or any of YoYo Games products without written permission
+by myself. 
+
+In short, if you do want to use this in an extension just ask. 
+
+Beyond these things, use this as you see fit. 

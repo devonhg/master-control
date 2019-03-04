@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "94fcbdc5-5615-41ab-a486-e2c140d7525b",
+            "Value": {
+                "id": "a481488e-0c1e-42c6-8a60-1d61bd05e6c0",
+                "resourcePath": "notes\\license.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
             "Value": {
                 "id": "b58def75-098b-4bfc-9d37-2afa4fb36a6a",
