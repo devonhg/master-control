@@ -1,5 +1,7 @@
 # Master Control for Game Maker Studio 2
 
+[Learn More On My Webste](https://playfrey.games/game-maker-master-control-engine/)
+
 Using this engine, you are able to very easily manage many controllers in a large game in an
 initiation script or room start event in the beginning of game loading. This removes the need 
 of going into each room and managing a bunch of "invisible objects".
@@ -47,14 +49,13 @@ Using this script, you can remove a single controller from a room.
 
 ## More Info
 
-
 __Video Tutorial__
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=UhW08XoZnCw
+" target="_blank"><img src="http://img.youtube.com/vi/UhW08XoZnCw/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 __Marketplace Listing__
-[View Listing](https://www.google.com)
+[View Listing](https://marketplace.yoyogames.com/assets/8002/master-control-for-gms2)
 
 __Code on Pastebin__
-[View on Pastebin](https://www.google.com)
+[View on Pastebin](https://pastebin.com/YAkVNN0F)
