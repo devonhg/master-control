@@ -1,6 +1,6 @@
 # Master Control for Game Maker Studio 2
 
-[Learn More On My Webste](https://playfrey.games/game-maker-master-control-engine/)
+[Learn More On My Website](https://playfrey.games/game-maker-master-control-engine/)
 
 Using this engine, you are able to very easily manage many controllers in a large game in an
 initiation script or room start event in the beginning of game loading. This removes the need 
